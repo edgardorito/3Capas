@@ -9,12 +9,11 @@ function guardar() {
 	type: 'POST',
 	dataType:'html',
 	success : function(data) {
-    alert(data)
+    alert(data);
+     document.getElementById('name').value = "";
+     document.getElementById('lasname').value = "";
+    document.getElementById('age').value = "";
+     document.getElementById('major').value = "";
   }
   });
-}
-
-function obtener() {
-
-   window.location="lista.php";
 }

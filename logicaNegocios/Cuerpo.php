@@ -1,6 +1,6 @@
 <body>
   <div class="row">
-    <form class="col s12" method="post" action="controlador.php" onsubmit="return false">
+    <form class="col s12 center"  action="javascript:guardar();">
       <div class="row">
         <div class="input-field col s12">
           <label for="name">Nombre (s)</label><br />
@@ -29,16 +29,20 @@
         </div>
       </div>
 
-       <button class="btn waves-effect waves-light" onclick="guardar()" type="submit" name="action">Guardar
-         <i class="material-icons right">send</i>
-       </button>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
+          <i class="material-icons right">send</i>
+        </button>
+        <a class="btn waves-effect waves-light" href="lista.php" >Obtener
+          <i class="material-icons right">cloud</i>
+        </a>
+
 
      </form>
-     <button class="btn waves-effect waves-light" onclick="obtener()" >Obtener
-       <i class="material-icons right">cloud</i>
-     </button>
+
+
+
 
 
   </div>
   </body>
-</html>';
+</html>
