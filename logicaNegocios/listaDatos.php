@@ -27,25 +27,19 @@ if( $conn ) {
                 <th data-field="lastname">Apellidos</th>
                 <th data-field="age">Edad</th>
                 <th data-field="major">Carrera</th>
-
             </tr>
           </thead>
-
           <tbody>';
           while ($row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)) {
-      	echo '
-
+      	    echo '
             <tr>
               <td>'.$row["nombre"].'</td>
               <td>'.$row["apellido"].'</td>
               <td>'.$row["edad"].'</td>
               <td>'.$row["carrera"].'</td>
-            </tr>
-  ';
-            }
-             echo '    </tbody>
-        </table>
-      ';
+            </tr>';
+          }
+             echo '  </tbody></table>';
   }
 }else{
      die( print_r( sqlsrv_errors(), true));

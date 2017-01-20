@@ -1,5 +1,7 @@
 <?php
-$serverName = "DESKTOP-CVGPVU6  "; //serverName\instanceName
+$serverName = "DESKTOP-CVGPVU6  ";
+//UID = usuario
+//PWD = password
 $connectionInfo = array( "Database"=>"c_s_ejemplo", "UID"=>"usuario2", "PWD"=>"root");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 

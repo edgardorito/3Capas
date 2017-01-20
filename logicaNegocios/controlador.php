@@ -11,15 +11,9 @@ VALUES ('$nombre', '$apellido', '$edad', '$carrera')";
 
 $stmt = sqlsrv_query( $conn, $sql);
 
-if ( $stmt )
-{
+if ( $stmt ){
   echo "Lo datos se guardaron con exito";
-
-}
-else
-{
+}else{
   echo "Lo datos NO se guardaron con exito";
 }
-
-
  ?>

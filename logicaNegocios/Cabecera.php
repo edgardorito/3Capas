@@ -3,9 +3,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-  	  <!-- Materialize  -->
-      <script src="../logicaNegocios/funciones.js" type="text/javascript" charset="utf-8"></script>
+    <title>Ejemplo</title>
+    <script src="../logicaNegocios/funciones.js" type="text/javascript" charset="utf-8"></script>
+
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
